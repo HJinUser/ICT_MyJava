@@ -20,17 +20,6 @@ public class YourPrint {
         System.out.println(); //문자열은 출력할 때 엔터를 눌러줍니다.
         System.out.println("혜");
         System.out.println("진");
-        System.out.println("진");
-        System.out.println("진");
-        System.out.println("진");
-        System.out.println("진");
-        System.out.println("진");
-        System.out.println("진");
-        System.out.println("진");
-        System.out.println("진");
-        System.out.println("진");
-        System.out.println("진");
-        System.out.println("진");
 
 
     }
