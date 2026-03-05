@@ -24,6 +24,7 @@ public class JUNIE {
             for (int k = 1; i >= k; k++) {//i가 커지면 같이 커져야지
                 System.out.printf("*");
             }*/
+
             for(int j = 0; j<i*2+1;j++){
                 System.out.printf("*");
             }
