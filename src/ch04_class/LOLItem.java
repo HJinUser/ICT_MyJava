@@ -8,6 +8,15 @@ public class LOLItem {
     private int hp_up;
     private int def_up;
 
+    public LOLItem(String item_name, int item_price, int hp_up, int ad_up, int def_up){
+        this.item_name=item_name;
+        this.item_price=item_price;
+        this.ad_up=ad_up;
+        this.hp_up=hp_up;
+        this.def_up=def_up;
+    }
+    public LOLItem(){};
+
     public String getItem_name() {
         return item_name;
     }

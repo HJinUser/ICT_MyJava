@@ -9,6 +9,13 @@ public class LOL {
     private int def; //방어력
     private LOLItem lolItem;
 
+    public LOL(String name, int heal, int ad, int def){
+        this.name=name;
+        this.ad=ad;
+        this.heal=heal;
+        this.def=def;
+    }
+    public LOL(){}
     //기본 공격
     void Nomal_Atack(LOL enemy) { //이름 불러오면 그걸 또 그 구조체를 불러서 거기에 때리기
         enemy.heal -= ad -enemy.def / 2; //방어력의 절반만큼 데미지 깎기. 적 체력에서 깍인 공격력만큼 줄이기
