@@ -13,5 +13,8 @@ public class Array01 {
         bts[5] = "슈가";
         bts[6] = "제이홉";
 
+        for(String n : bts){
+            System.out.println(n);
+        }
     }
 }
