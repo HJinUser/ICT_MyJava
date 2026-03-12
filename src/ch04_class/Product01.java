@@ -2,7 +2,7 @@ package ch04_class;
 
 public class Product01 { //단계01 : 클래스 정의
     //멤버변수
-    String name; //상품명
+    public String name; //상품명
     int price; //단가
     String inputdate; //입고 일자
 
