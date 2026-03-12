@@ -1,0 +1,8 @@
+수퍼 클래스 : Beverage05
+
+서브 클래스
+    Americano05
+    Espresso05
+    Latte05
+
+메인 클래스 : InheTest05
