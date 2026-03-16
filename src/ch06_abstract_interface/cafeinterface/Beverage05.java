@@ -1,6 +1,6 @@
 package ch06_abstract_interface.cafeinterface;
 
-public abstract class Beverage05 {
+public abstract class  Beverage05 {
 
     // 카페 이름은 객체 생성하지 않아도 접근이 가능하도록 하는 것이 좋겠습니다. (static을 사용하면 객체 없이 사용가능)
     // final이 붙어 있으면 편집 불가능한 상수(constant)입니다.
